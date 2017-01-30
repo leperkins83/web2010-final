@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikipedia App</title>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class='welcome'>
+        <h1>Welcome to the Odin App! Your Fur-riendly, One-Eyed Search for Wiki Articles!</h1>
+    </div>
+
+    <input type="text" id="searchBox" class="searchBox" placeholder="Search Me!">
+    <img class='odinOneEyed' src="./odinOneEyed.jpg" alt="odin">
+
+    <div class=centerButtons>
+        <button class="searchButton" id="searchButton">Find Articles</button>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel+ "noopener" href="https://en.wikipedia.org/wiki/' + title + '">
+            <button class="randomButton">Random Article</button>
+        </a>
+    </div>
+
+    <div id="articlesContainer" class='articlesContainer'></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

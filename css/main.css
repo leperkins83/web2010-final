@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #510405;
+}
+
+.welcome h1 {
+    display: block;
+    text-align: center;
+    margin: 50px auto 20px auto;
+    color: #03b796;
+    text-shadow: 10px 15px #021911;
+    font-size: 30px;
+    font-family: 'Kumar One', cursive;
+    max-width: 80vw;
+    line-height: 2.5;
+}
+
+.searchBox {
+    background-color: #f4e1e2;
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: #03b796;
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kumar One', cursive;
+    padding-top: 5px;
+}
+
+.odinOneEyed {
+    display: block;
+    margin: 20px auto 0 auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #79b705;
+    max-width: 290px;
+}
+
+.searchBox:focus {
+    outline: none;
+}
+
+.centerButtons {
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px 0;
+}
+
+.searchButton,
+.randomButton {
+    background-color: #f4e1e2;
+    display: inline-block;
+    margin: 0 10px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: #03b796;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.article {
+    display: block;
+    margin: 25px auto 40px auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #79b705;
+    background-color: #f4e1e2;
+    padding-left: 65px;
+    padding-right: 20px;
+    max-width: 60vw;
+}
+
+@media all and (max-width: 414px) {
+    .article {
+        padding-left: 15px;
+    }
+}
+
+.article:hover {
+    background-color: #edf2da;
+    border-left-width: 5px;
+    border-left-color: #03b796;
+}
+
+.articlesContainer a {
+    color: #03b796;
+}
+
+.articlesContainer a:visited {
+    color: #510405;
+}
